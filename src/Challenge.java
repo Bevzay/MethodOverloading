@@ -4,6 +4,7 @@ public class Challenge {
 
         calcFeetAndInchesToCentimetres(6, 4);
         calcFeetAndInchesToCentimetres(100);
+        calcFeetAndInchesToCentimetres(-10);
     }
 
     /*
