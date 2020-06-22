@@ -2,7 +2,7 @@ public class Challenge {
 
     public static void main(String[] args) {
 
-        calcFeetAndInchesToCentimetres(-10, 1);
+        calcFeetAndInchesToCentimetres(6, 4);
     }
 
     /*
@@ -32,7 +32,7 @@ public class Challenge {
      */
 
     public static double calcFeetAndInchesToCentimetres(double feet, double inches) {
-        if((feet < 0) || (inches < 0) && (inches > 12)) {
+        if((feet < 0) || (inches < 0) || (inches > 12)) {
             System.out.println("Invalid feet and inches parameters");
             return -1;
         } else {
